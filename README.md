@@ -36,7 +36,7 @@ npm install
 After installing dependencies, run the unit tests using the following command:
 npm test
 
-### Integration Testing
+# Integration Testing
 
 Integration tests focus on the interactions between different components or services in your application. These tests ensure that the app's various parts work together correctly. Integration tests should be written in the test/tests.js file as well.
 
