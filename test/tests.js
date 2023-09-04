@@ -124,7 +124,6 @@ describe('Integration Tests', () => {
   });
 
   it('Should return the correct weather data for a specific integration scenario', async () => {
-    // Integration test scenario
-    // ...
+   
   });
 });
