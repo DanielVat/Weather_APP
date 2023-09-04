@@ -21,6 +21,38 @@ A simple weather app that allows users to search for the weather of a city and d
 
 ![Weather App Demo](screenshot.png)
 
+### Unit Testing
+
+Unit tests have been implemented to ensure the functionality of different parts of the Weather App. These tests verify that individual functions and components work as expected. To run the unit tests, follow these steps:
+
+1. Open a terminal.
+2. Navigate to the project's root directory.
+
+Install project dependencies by running the following command:
+
+```bash
+npm install
+
+After installing dependencies, run the unit tests using the following command:
+npm test
+
+### Integration Testing
+
+Integration tests focus on the interactions between different components or services in your application. These tests ensure that the app's various parts work together correctly. Integration tests should be written in the test/tests.js file as well.
+
+To run integration tests, follow these steps:
+
+1. Open a terminal.
+2. Navigate to the project's root directory.
+
+Install project dependencies by running the following command:
+```bash
+npm install
+
+Run the integration tests using the following command:
+npm run integration-test
+
+
 ## Technologies Used
 
 - HTML
@@ -34,5 +66,3 @@ A simple weather app that allows users to search for the weather of a city and d
 ## Contributing
 
 Contributions are welcome! If you find any issues or want to add improvements, feel free to create a pull request.
-
-
