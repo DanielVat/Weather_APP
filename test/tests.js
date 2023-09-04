@@ -100,7 +100,7 @@ describe('Unit Tests', () => {
 describe('Integration Tests', () => {
   beforeEach(() => {
     // Mock API responses here
-    // Example:
+ 
     nock('http://api.openweathermap.org')
       .get('/data/2.5/weather')
       .query(true)
@@ -116,7 +116,7 @@ describe('Integration Tests', () => {
         weather: [{ main: 'Sunny' }],
       });
 
-    // Additional mocks as needed
+    
   });
 
   afterEach(() => {
